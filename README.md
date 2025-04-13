@@ -6,34 +6,34 @@ This project optimizes power usage in battery-operated devices by analyzing devi
 
 ---
 
-## 🧠 Overview
+## Overview
 
 Modern battery-powered devices need intelligent power control systems to extend battery life without affecting performance. This project proposes a **machine learning-based solution** that classifies power consumption behavior without needing labeled data, using clustering algorithms.
 
-### ✅ Project Highlights
+### Project Highlights
 
-- 📊 K-Means Clustering applied to power usage patterns
-- ⚡ Classifies device behavior into two modes:
+-  K-Means Clustering applied to power usage patterns
+-  Classifies device behavior into two modes:
   - **Cluster 0** → Normal Mode
   - **Cluster 1** → Power-Saving Mode *(or vice versa depending on cluster center values)*
-- 📈 Visual analysis through multiple plots
-- 🧹 Preprocessing and dimensionality reduction using PCA
-- 🧾 Multiple datasets used: original and cleaned versions
+-  Visual analysis through multiple plots
+-  Preprocessing and dimensionality reduction using PCA
+-  Multiple datasets used: original and cleaned versions
 
 ---
 
-## 📊 Visualizations Included
+##  Visualizations Included
 
-- 📌 **Feature Distribution Histogram**
-- 🌡️ **Correlation Heatmap**
-- 🔟 **Top 10 Principal Features (PCA)**
-- 💧 **Elbow Method Plot** – for optimal k
-- 📉 **Scree Plot** – variance explained by components
-- 🌀 **2D Cluster Visualization** using PCA-transformed features
+-  **Feature Distribution Histogram**
+-  **Correlation Heatmap**
+-  **Top 10 Principal Features (PCA)**
+-  **Elbow Method Plot** – for optimal k
+-  **Scree Plot** – variance explained by components
+-  **2D Cluster Visualization** using PCA-transformed features
 
 ---
 
-## 🛠️ How it Works
+##  How it Works
 
 1. **Load and Clean Data**
    - Remove irrelevant features
@@ -53,25 +53,9 @@ Modern battery-powered devices need intelligent power control systems to extend 
 
 ---
 
-## 📈 Dataset Info
+##  Dataset Info
 
 - **Original Source**: [Smartphone Dataset for Battery Usage - Mendeley Data](https://data.mendeley.com/datasets/bpsrw76hgx/6)
 - **Disclaimer**: I do not own this dataset.
-- Data includes:
-  - CPU usage
-  - Battery charge/discharge
-  - Screen-on time
-  - Application activity
-  - Sensor data
-
----
-
-## 📚 References
-
-- [Smartphone Battery Usage Dataset](https://data.mendeley.com/datasets/bpsrw76hgx/6)
-- Scikit-learn Documentation
-- PCA & Clustering best practices
-
----
 
 ## Made by Vidhyarth
