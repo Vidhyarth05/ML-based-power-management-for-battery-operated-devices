@@ -56,6 +56,6 @@ Modern battery-powered devices need intelligent power control systems to extend 
 ##  Dataset Info
 
 - **Original Source**: [Smartphone Dataset for Battery Usage - Mendeley Data](https://data.mendeley.com/datasets/bpsrw76hgx/6)
-- **Disclaimer**: I do not own this dataset.
+- **Disclaimer**: I do not own this dataset
 
 ## Made by Vidhyarth
